@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  color: #222;
+}
+
+.materia {
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  color: green;
+}
